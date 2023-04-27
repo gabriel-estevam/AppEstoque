@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Box } from 'native-base';
 import InputSearch from '../../components/Search';
 import EstoqueList from '../../components/EstoqueList/Index';
 function WareHouse() {
+    
+    useEffect(() => {
+
+    }, []);
+    
     return (
         <Box 
             flex={1} 

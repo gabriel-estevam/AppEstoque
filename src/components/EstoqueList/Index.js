@@ -31,10 +31,10 @@ export default props => {
                     rounded={10}
                 />
             </Box>
-            
+
             <Box paddingLeft={2}>
                 <Box paddingBottom={2}>
-                    <Text fontFamily="body" bold>{props.name}</Text>
+                    <Text fontFamily="body" bold flexWrap="wrap">{props.name}</Text>
                 </Box>
                 <Box>
                     <Text fontFamily="body">qtd.Atual: {props.qtd}</Text>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box } from 'native-base';
 import InputSearch from '../../components/Search';
-
+import EstoqueList from '../../components/EstoqueList/Index';
 function WareHouse() {
     return (
         <Box 
@@ -19,8 +19,9 @@ function WareHouse() {
                 width="98%"
                 marginLeft={1}
                 rounded={10}
+                flexWrap="wrap"
             >
-                Content
+                <EstoqueList name="Produto Teste" qtd="10"/>
             </Box>
         </Box>
     );
